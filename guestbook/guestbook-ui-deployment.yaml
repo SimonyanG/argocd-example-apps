@@ -3,11 +3,7 @@ kind: Deployment
 metadata:
   name: guestbook-ui
 spec:
-<<<<<<< HEAD
   replicas: 4
-=======
-  replicas: 10
->>>>>>> parent of 780623a... Update guestbook-ui-deployment.yaml
   revisionHistoryLimit: 5
   selector:
     matchLabels:
